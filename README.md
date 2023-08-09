@@ -55,3 +55,7 @@ I've organized the code in each chapter into sections called "takes" for easier 
 ## Chapter 7 - Bringing Order to Chaos: _architecture_
 
 - [Chapter 7](./src/ooad/chapter_07/): Targeting the key features; `Unit`, `Tile`, and `Board`
+
+## Chapter 8 - Originality is Overrated: _design principles_
+
+- [Chapter 8](./src/ooad/chapter_08/): Adding a `Board3D` - delegation instead of inheritance
