@@ -51,3 +51,7 @@ I've organized the code in each chapter into sections called "takes" for easier 
 ## Chapter 6 - "My Name is Art Vandelay": _solving really big problems_
 
 - [Chapter 6](./src/ooad/chapter_06/): The Big Break-Up and a quick and dirty `Unit` class
+
+## Chapter 7 - Bringing Order to Chaos: _architecture_
+
+- [Chapter 7](./src/ooad/chapter_07/): Targeting the key features; `Unit`, `Tile`, and `Board`
