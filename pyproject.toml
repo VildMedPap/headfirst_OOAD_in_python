@@ -1,0 +1,87 @@
+[tool.poetry]
+name = "headfirst_OOAD_in_python"
+version = "0.1.0"
+description = "Python code related to Head First Object-Oriented Analysis & Design book"
+authors = ["Sebastian Steenssøe <vildmedpap@gmail.com>"]
+readme = "README.md"
+packages = [
+    { include = "ooad", from = "src" }
+]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[tool.poetry.group.dev]
+optional = false
+[tool.poetry.group.dev.dependencies]
+black = "23.7.0"
+ipython = "8.14.0"
+mypy = "1.4.1"
+pytest = "7.4.0"
+ruff = "0.0.282"
+
+[tool.black]
+target-version = ["py311"]
+line-length = 99
+
+[tool.ruff]
+target-version = "py311"
+line-length = 99
+cache-dir = "~/.cache/ruff"
+format = "grouped"
+show-source = true
+select = ["E", "W", "I", "D", "UP", "N", "B", "C4", "BLE", "FBT", "A", "T20", "SIM", "PTH", "ERA"]
+ignore = [
+    "D100", # Missing docstring in public module
+    "D101", # Missing docstring in class
+    "D102", # Missing docstring in method
+    "D104", # Missing docstring in public package
+    "D105", # Missing docstring in magic method
+    "D107", # Missing docstring in __init__
+    "E501", # Line length regulated by black
+    "T201", # `print` found
+    "B024", # ABCs should have abstract methods
+]
+extend-exclude = ["__pycache__", ".venv", ".cache"]
+
+[tool.ruff.flake8-quotes]
+docstring-quotes = "double"
+
+[tool.ruff.flake8-builtins]
+builtins-ignorelist = ["type", "open", "property", "id"]
+
+[tool.ruff.pydocstyle]
+convention = "google"
+
+[tool.ruff.isort]
+combine-as-imports = true
+lines-after-imports = 2
+
+[tool.mypy]
+python_version = "3.11"
+cache_dir = ".cache/mypy"
+check_untyped_defs = true
+disallow_any_generics = true
+disallow_incomplete_defs = true
+disallow_subclassing_any = true
+disallow_untyped_calls = true
+disallow_untyped_decorators = true
+disallow_untyped_defs = true
+ignore_missing_imports = true
+install_types = true
+no_implicit_optional = true
+non_interactive = true
+strict_equality = true
+warn_redundant_casts = true
+warn_unused_ignores = true
+exclude = ["tests"]
+
+[tool.pytest.ini_options]
+markers = ["slow"]
+xfail_strict = true
+testpaths = ["tests", "src"]
+cache_dir = ".cache/pytest"
+
+[build-system]
+requires = ["poetry-core>=1.5.0"]
+build-backend = "poetry.core.masonry.api"
