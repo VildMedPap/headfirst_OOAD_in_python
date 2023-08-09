@@ -26,3 +26,8 @@ I've organized the code in each chapter into sections called "takes" for easier 
 
 - [Take 1](./src/ooad/chapter_02/take_01/): Quick and dirty
 - [Take 2](./src/ooad/chapter_02/take_02/): Setting up an automatic closure for the `DogDoor`
+
+## Chapter 3 - I Love You, You’re Perfect... Now Change: _requirements change_
+
+- [Take 1](./src/ooad/chapter_03/take_01/): Add a `BarkRecognizer` to open `DogDoor`
+- [Take 2](./src/ooad/chapter_03/take_02/): Change design decision; move timer from `Remote` to `DogDoor`
