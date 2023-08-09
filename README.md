@@ -37,3 +37,13 @@ I've organized the code in each chapter into sections called "takes" for easier 
 - [Take 1](./src/ooad/chapter_04/take_01/): Ryan's quick and dirty solution
 - [Take 2](./src/ooad/chapter_04/take_02/): Sam's objects and delegation obsessed solution
 - [Take 3](./src/ooad/chapter_04/take_03/): Maria's textual analysis solution
+
+## Chapter 5
+
+### Part 1 - Nothing Ever Stays the Same: _good design_
+
+- [Part 1](./src/ooad/chapter_05/part_01/): Rick's new application - ABC, inheritance, and aggregation
+
+### Part 2 - Give Your Software a 30-minute Workout: _flexible software_
+
+- [Part 2](./src/ooad/chapter_05/part_02/): Rick's new application - More cohesive software
