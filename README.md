@@ -47,3 +47,7 @@ I've organized the code in each chapter into sections called "takes" for easier 
 ### Part 2 - Give Your Software a 30-minute Workout: _flexible software_
 
 - [Part 2](./src/ooad/chapter_05/part_02/): Rick's new application - More cohesive software
+
+## Chapter 6 - "My Name is Art Vandelay": _solving really big problems_
+
+- [Chapter 6](./src/ooad/chapter_06/): The Big Break-Up and a quick and dirty `Unit` class
