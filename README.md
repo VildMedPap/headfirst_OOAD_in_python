@@ -31,3 +31,9 @@ I've organized the code in each chapter into sections called "takes" for easier 
 
 - [Take 1](./src/ooad/chapter_03/take_01/): Add a `BarkRecognizer` to open `DogDoor`
 - [Take 2](./src/ooad/chapter_03/take_02/): Change design decision; move timer from `Remote` to `DogDoor`
+
+## Chapter 4 - Taking Your Software Into the Real World: _analysis_
+
+- [Take 1](./src/ooad/chapter_04/take_01/): Ryan's quick and dirty solution
+- [Take 2](./src/ooad/chapter_04/take_02/): Sam's objects and delegation obsessed solution
+- [Take 3](./src/ooad/chapter_04/take_03/): Maria's textual analysis solution
