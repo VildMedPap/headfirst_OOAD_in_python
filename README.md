@@ -13,3 +13,11 @@ All tests in this book are executed using `pytest` and are located in the `tests
 While converting Java code to Python, there were times when a direct match wasn't feasible or when Python offered a more straightforward method. My main aim was to preserve the educational intent of the book, rather than optimising for Python.
 
 I've organized the code in each chapter into sections called "takes" for easier understanding.
+
+## Chapter 1 - Great Software Begins Here: _well-designed apps rock_
+
+- [Take 1](./src/ooad/chapter_01/take_01/): Quick and dirty
+- [Take 2](./src/ooad/chapter_01/take_02/): Adding enums
+- [Take 3](./src/ooad/chapter_01/take_03/): Making `Inventory.search_guitar` return a list
+- [Take 4](./src/ooad/chapter_01/take_04/): Encapsulating what varies, introducing `GuitarSpec`
+- [Take 5](./src/ooad/chapter_01/take_05/): Delegating `Inventory.search_guitar` to `GuitarSpec.matches`
