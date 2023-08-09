@@ -59,3 +59,9 @@ I've organized the code in each chapter into sections called "takes" for easier 
 ## Chapter 8 - Originality is Overrated: _design principles_
 
 - [Chapter 8](./src/ooad/chapter_08/): Adding a `Board3D` - delegation instead of inheritance
+
+## Chapter 9 - The Software is Still for the Customer: _iteration and testing_
+
+- [Take 1](./src/ooad/chapter_09/take_01/): `Unit` properties
+- [Take 2](./src/ooad/chapter_09/take_02/): `Unit` properties with different contract (`raise Exception`)
+- [Take 3](./src/ooad/chapter_09/take_03/): `Unit` groups
