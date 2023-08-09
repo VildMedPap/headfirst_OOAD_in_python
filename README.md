@@ -21,3 +21,8 @@ I've organized the code in each chapter into sections called "takes" for easier 
 - [Take 3](./src/ooad/chapter_01/take_03/): Making `Inventory.search_guitar` return a list
 - [Take 4](./src/ooad/chapter_01/take_04/): Encapsulating what varies, introducing `GuitarSpec`
 - [Take 5](./src/ooad/chapter_01/take_05/): Delegating `Inventory.search_guitar` to `GuitarSpec.matches`
+
+## Chapter 2 - Give Them What They Want: _gathering requirements_
+
+- [Take 1](./src/ooad/chapter_02/take_01/): Quick and dirty
+- [Take 2](./src/ooad/chapter_02/take_02/): Setting up an automatic closure for the `DogDoor`
