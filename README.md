@@ -65,3 +65,7 @@ I've organized the code in each chapter into sections called "takes" for easier 
 - [Take 1](./src/ooad/chapter_09/take_01/): `Unit` properties
 - [Take 2](./src/ooad/chapter_09/take_02/): `Unit` properties with different contract (`raise Exception`)
 - [Take 3](./src/ooad/chapter_09/take_03/): `Unit` groups
+
+## Chapter 10 - Putting It All Together: _the ooa&d lifecycle_
+
+- [Chapter 10](./src/ooad/chapter_10/): A trip to Objectville
