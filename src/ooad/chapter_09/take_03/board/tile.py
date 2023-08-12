@@ -9,17 +9,7 @@ class Tile:
         self.__units.append(unit)
 
     def _remove_unit(self, unit: Unit) -> None:
-        # If we simply used .remove() or .pop() in the units list, we just remove the first
-        # occurrence of an unit from the list and not the specific unit
-        index_to_remove = None
-
-        for idx, u in enumerate(self.__units):
-            if u is unit:
-                index_to_remove = idx
-                break
-
-        if index_to_remove:
-            self.__units.pop(index_to_remove)
+        self.__units.remove(unit)
 
     def _remove_units(self) -> None:
         self.__units.clear()
